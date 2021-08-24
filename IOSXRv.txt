@@ -1,0 +1,11 @@
+interface GigabitEthernet 0/0/0/0
+description Equipo5 VsCode usando NORNIR 
+no shutdown
+ipv4 add 192.168.130.1 255.255.255.0
+exit
+interface GigabitEthernet 0/0/0/1
+description Equipo5 VsCode usando NORNIR 
+no shutdown
+ipv4 add 192.168.140.1 255.255.255.0
+end
+yes
