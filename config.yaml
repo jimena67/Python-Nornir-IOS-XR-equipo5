@@ -1,0 +1,9 @@
+ventory:
+    plugin: SimpleInventory
+    options:
+        host_file: "C:/Users/Micheli Anai Lopez V/Desktop/Python-Nornir-IOS-XR-equipo5/hosts.yaml"
+        group_file: "C:/Users/Micheli Anai Lopez V/Desktop/Python-Nornir-IOS-XR-equipo5/groups.yaml"
+nner:
+plugin: threaded
+options:
+    num_workers: 20
